@@ -1,0 +1,19 @@
+{
+  "product_id": "food-tamara-sukkary-rutab-500g",
+  "product_type": "food",
+  "status": "approved",
+  "approval": {
+    "by": "human",
+    "basis": "Explicitly approved as golden by the user."
+  },
+  "reference": {
+    "source_product_json_is_canonical": true,
+    "note": "Golden example does not duplicate the full product facts."
+  },
+  "demonstrates": [
+    "Persuasive local/cultural opening.",
+    "Natural, conversational Saudi-facing language.",
+    "Simple product-specific appeal rather than catalog-only wording.",
+    "Concise icon-led presentation."
+  ]
+}
