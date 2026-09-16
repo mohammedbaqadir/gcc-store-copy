@@ -15,7 +15,7 @@ metadata:
 
 This project is a reusable system for producing, reviewing, and maintaining product copy for a Saudi e-commerce store.
 
-`AGENT.md` defines how an agent operates this system.
+`SKILL.md` defines how an agent operates this system.
 
 It defines:
 
@@ -51,8 +51,8 @@ Use each resource for the kind of knowledge it owns:
 
 | Resource              | Authority                                   |
 | --------------------- | ------------------------------------------- |
-| `AGENT.md`            | Project operation and boundaries            |
-| `skill/`              | Writing behavior and style                  |
+| `SKILL.md`            | Project operation and boundaries            |
+| `STYLE.md`            | Writing behavior and style                  |
 | `products/templates/` | Product-data structure                      |
 | `golden-set/`         | Approved examples and evaluation references |
 | `qa/`                 | Validation procedures                       |
@@ -115,37 +115,37 @@ The project currently supports six operational product types:
 
 Physical products that can be shipped as sold.
 
-Template: `products/templates/ready-made.json`
+Template: `products/templates/ready-made.md`
 
 ### 2. Custom Services
 
 Made-to-order work such as design, printing, research, writing, and similar services.
 
-Template: `products/templates/custom-service.json`
+Template: `products/templates/made-to-order.md`
 
 ### 3. Food
 
 Food and beverages requiring specialized shipping, handling, storage, or delivery.
 
-Template: `products/templates/food.json`
+Template: `products/templates/food.md`
 
 ### 4. Digital Products
 
 Digitally delivered products such as ebooks, courses, and downloadable files.
 
-Template: `products/templates/digital-product.json`
+Template: `products/templates/digital-product.md`
 
 ### 5. Digital Cards
 
 Recharge cards, account credits, codes, and similar digitally delivered products.
 
-Template: `products/templates/digital-card.json`
+Template: `products/templates/digital-card.md`
 
 ### 6. Bookings
 
 Bookable services or appointments such as courses, consultations, medical services, and similar offerings.
 
-Template: `products/templates/booking.json`
+Template: `products/templates/booking.md`
 
 These are **data and workflow categories**, not writing-style categories.
 
@@ -206,7 +206,7 @@ QA is mandatory and blocking.
 
 A description is not final merely because it has been generated or reviewed informally.
 
-The detailed checks live in `qa/` and the applicable skill resources. Follow those checks rather than recreating them in this file.
+The detailed checks live in `qa/`. Follow those checks rather than recreating them in this file.
 
 When a required QA check fails:
 
@@ -222,8 +222,8 @@ When a failure cannot be resolved because required information is missing or con
 
 Keep project knowledge in the resource that owns it.
 
-- Change `AGENT.md` for project operation, boundaries, workflow, or authority.
-- Change `skill/` for writing behavior and style.
+- Change `SKILL.md` for project operation, boundaries, workflow, or authority.
+- Change `STYLE.md` for writing behavior and style.
 - Change a product template for product-data structure.
 - Change `qa/` for validation rules and checks.
 - Change the golden set when an example has been intentionally approved as reference material.
