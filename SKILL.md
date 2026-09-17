@@ -1,7 +1,6 @@
 ---
 name: saudi-store-copy
 description: Produce and evaluate product copy for a Saudi-facing web store using project rules, product-type guidance, QA, golden examples, and a human-approved feedback-to-expertise loop.
-compatibility: opencode
 metadata:
     domain: ecommerce
     audience: saudi-arabic
