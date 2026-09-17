@@ -332,9 +332,12 @@ A product description is final only when:
 - applicable QA checks passed;
 - unresolved information problems have been surfaced.
 
-Final customer-facing output should contain the requested copy and only task-required supporting material.
+Final output has two separate parts:
 
-Do not expose internal process details, QA diagnostics, editorial plans, or model commentary unless explicitly requested.
+The copy itself — clean, customer-facing, no meta-commentary, no missing-info notes, no QA language of any kind.
+A "Gaps" note directly below it — a short bullet list, addressed to the operator (not the customer), naming what was omitted and why (missing from source, conflicting, or out of scope). This is not optional when a fact was omitted for one of those reasons.
+
+Do not expose internal process details, editorial plans, or model commentary beyond the Gaps note unless explicitly requested. The Gaps note is the one standing exception — it always accompanies the copy when a relevant fact was withheld.
 
 ---
 
