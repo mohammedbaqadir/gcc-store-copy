@@ -1,0 +1,8 @@
+{
+  "name": "saudi-store-copy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "bun run scripts/check.ts"
+  }
+}

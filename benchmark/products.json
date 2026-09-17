@@ -1,393 +1,401 @@
-{
-    "id": "digital-product-jarir-prince-enchanted-ebook",
-    "product_type": "digital_product",
-    "name": "الأمير المسحور - eBook",
-    "source": {
-        "name": "Jarir Saudi Arabia",
-        "url": "https://www.jarir.com/sa-en/jarir-publication-jrb20710285.html",
-        "verified": "2026-09-17",
-        "notes": "Jarir listing states the eBook is added to the customer's Jarir Reader account."
-    },
-    "facts": {
-        "title": "الأمير المسحور",
-        "format": "eBook",
-        "author": "كامل كيلاني",
-        "publisher": "مكتبة المشرق الإلكترونية",
-        "page_count": 656,
-        "price_sar": 3.99,
-        "delivery_method": "Added to Jarir Reader library",
-        "returns_exchange": "Not eligible for return/exchange",
-        "sku": "JRB20710285",
-        "language": "Arabic",
-        "story_summary": "A kind princess named Majda escapes a tyrant king, lives disguised as a village woman, encounters an evil fairy, and the story follows a magical curse affecting her son, whose only path to release is to be loved despite his appearance."
-    },
-    "copy_relevant_context": {
-        "customer_decisions": [
-            "what the story is about",
-            "format",
-            "page count",
-            "price",
-            "where the eBook is delivered",
-            "whether it is suitable for the intended reader"
-        ],
-        "supported_benefits": [
-            "digital reading without waiting for physical delivery",
-            "long-form story with 656 pages",
-            "available directly in the Jarir Reader library"
-        ],
-        "do_not_infer": [
-            "age suitability beyond what the listing establishes",
-            "quality compared with other editions",
-            "instant download outside Jarir Reader",
-            "physical copy included",
-            "return eligibility"
-        ]
-    }
-}
-
-
-
-{
-    "id": "food-afia-tamarind-500g",
-    "product_type": "food",
-    "name": "تمر هندي أفيا 500 جرام",
-    "source": {
-        "name": "Carrefour Saudi Arabia",
-        "url": "https://www.carrefourksa.com/mafsau/ar/dates/afia-tamarind-500-gm/p/728361",
-        "verified": "2026-09-17",
-        "notes": "Carrefour Saudi listing showed a 500 g pack; availability can change."
-    },
-    "facts": {
-        "brand": "Afia",
-        "product": "Tamarind",
-        "form": null,
-        "pack_size_g": 500,
-        "price_sar": 15.5,
-        "seller": "Carrefour",
-        "availability_at_verification": "out_of_stock"
-    },
-    "copy_relevant_context": {
-        "customer_decisions": [
-            "what the product is",
-            "pack size",
-            "price",
-            "availability"
-        ],
-        "supported_benefits": ["500 g pack"],
-        "do_not_infer": [
-            "origin",
-            "freshness duration",
-            "sweetness or sourness level",
-            "ingredients not stated in the source",
-            "health or nutritional benefits",
-            "recipe performance",
-            "current availability beyond the verified listing status"
-        ]
-    }
-}
-
-
-
-{
-    "id": "ready-airpods-pro-3-white",
-    "product_type": "ready_product",
-    "name": "Apple AirPods Pro 3، أبيض",
-    "source": {
-        "name": "Apple Saudi Arabia + Jarir Saudi Arabia",
-        "urls": [
-            "https://www.apple.com/sa/airpods-pro/specs/",
-            "https://www.jarir.com/apple-airpods-pro-3-headsets-666611.html"
-        ],
-        "verified": "2026-09-17",
-        "notes": "Technical specifications cross-checked against Apple Saudi Arabia; Saudi retail price and SKU from Jarir."
-    },
-    "facts": {
-        "brand": "Apple",
-        "model": "AirPods Pro 3",
-        "color": "White",
-        "price_sar": 1049,
-        "price_includes_vat": true,
-        "seller": "Jarir",
-        "jarir_sku": "666611",
-        "manufacturer_number": "MFHP4ZEA",
-        "active_noise_cancellation": true,
-        "adaptive_audio": true,
-        "transparency_mode": true,
-        "conversation_awareness": true,
-        "voice_isolation": true,
-        "personalized_spatial_audio": true,
-        "heart_rate_sensing_during_workouts": true,
-        "hearing_test": true,
-        "hearing_aid": true,
-        "hearing_protection": true,
-        "chip": "Apple H2",
-        "ultra_wideband_chip": "Apple second-generation Ultra Wideband chip in MagSafe Charging Case",
-        "water_dust_resistance": "IP57",
-        "battery_listening_hours_with_anc": "up to 8 hours",
-        "battery_case_with_anc": "up to 24 hours",
-        "quick_charge": "5 minutes in the case provides around 1 hour of listening time",
-        "connectivity": "Bluetooth 5.3",
-        "charging_case": "MagSafe Charging Case (USB-C)",
-        "earbud_weight_g": 5.55,
-        "case_weight_g": 43.99,
-        "included_tip_sizes": ["XXS", "XS", "S", "M", "L"],
-        "usb_c_cable_included": false,
-        "warranty": null
-    },
-    "copy_relevant_context": {
-        "customer_decisions": [
-            "noise cancellation",
-            "audio and listening modes",
-            "battery life",
-            "workout-related features",
-            "device compatibility",
-            "water/dust resistance",
-            "price"
-        ],
-        "supported_benefits": [
-            "reduces environmental noise with Active Noise Cancellation",
-            "switches between Adaptive Audio and Transparency mode",
-            "up to 8 hours listening with ANC on a single charge",
-            "heart-rate sensing during workouts",
-            "compact wireless listening with a 43.99 g charging case"
-        ],
-        "do_not_infer": [
-            "works with every Apple feature on every non-Apple device",
-            "fully waterproof",
-            "unlimited battery life",
-            "professional medical outcomes from hearing-related features",
-            "better sound quality than every competing headphone"
-        ]
-    }
-}
-
-
-
-{
-    "id": "booking-shawir-legal-consultation-15-min",
-    "product_type": "booking",
-    "name": "Shawir Legal Consultation — 15 Minutes",
-    "source": {
-        "name": "Shawir Saudi Arabia",
-        "url": "https://shawir.sa/en/",
-        "verified": "2026-09-17",
-        "notes": "Saudi legal-consultation platform listing. Service availability and pricing can change."
-    },
-    "facts": {
-        "brand": "Shawir",
-        "service": "Legal consultation session",
-        "duration_minutes": 15,
-        "price_sar": 250,
-        "extension_price_per_15_minutes_sar": 50,
-        "consultation_types": ["Personal status", "Labor cases"],
-        "communication_modes": ["Text chat", "Voice call", "Video call"],
-        "availability": "Saudi Arabia",
-        "consultants": "Licensed lawyers",
-        "payment_methods": ["Mada", "Visa", "Apple Pay"],
-        "tax_invoice": true,
-        "refund_policy": "Full refund 1 day before session"
-    },
-    "copy_relevant_context": {
-        "customer_decisions": [
-            "case type",
-            "consultation duration",
-            "price",
-            "communication mode",
-            "availability in Saudi Arabia",
-            "refund policy"
-        ],
-        "supported_benefits": [
-            "specialized legal consultation for personal status and labor cases",
-            "multiple communication modes",
-            "transparent fixed starting price",
-            "official tax invoice"
-        ],
-        "do_not_infer": [
-            "guaranteed legal outcome",
-            "lawyer identity before booking",
-            "legal representation included",
-            "consultation covers cases outside personal status and labor",
-            "24/7 consultant availability"
-        ]
-    }
-}
-
-
-
-{
-    "id": "digital-card-sony-playstation-store-100-usd-ksa",
-    "product_type": "digital_card",
-    "name": "Sony Gift Card $100 PlayStation Store — KSA",
-    "source": {
-        "name": "Jarir Bookstore Saudi Arabia",
-        "url": "https://www.jarir.com/sa-en/sony-sim-internet-call-and-payment-card-528509.html",
-        "verified": "2026-09-17",
-        "notes": "Saudi Jarir listing. The code is identified as a KSA PlayStation Store payment/recharge card and is delivered by email."
-    },
-    "facts": {
-        "brand": "Sony",
-        "card_type": "PlayStation Store Payment and Recharge Card",
-        "denomination_usd": 100,
-        "region": "KSA",
-        "price_sar": 375,
-        "price_includes_vat": null,
-        "delivery_method": "Email delivery",
-        "digital_code": true,
-        "return_exchange": false,
-        "seller": "Jarir",
-        "sku": "528509",
-        "manufacturer_number": "720098"
-    },
-    "copy_relevant_context": {
-        "customer_decisions": [
-            "PlayStation Store region",
-            "denomination",
-            "price",
-            "delivery method",
-            "return/exchange policy"
-        ],
-        "supported_benefits": [
-            "digital delivery to email",
-            "adds $100 of PlayStation Store value for the KSA region"
-        ],
-        "do_not_infer": [
-            "compatibility with USA or other regions",
-            "instant delivery time beyond email delivery",
-            "specific games or subscriptions included",
-            "ability to exchange for cash"
-        ]
-    }
-}
-
-
-
-{
-    "id": "made-to-order-custom-ceramic-mug-tabuwaprints",
-    "product_type": "made_to_order",
-    "name": "Custom Ceramic Mug — Tabuwa Prints",
-    "source": {
-        "name": "Tabuwa Prints Saudi Arabia",
-        "url": "https://tabuwaprints.com/en/products/ceramic-mugs",
-        "verified": "2026-09-17",
-        "notes": "Saudi custom-printing listing. Price updates based on selected options and shipping is added at checkout."
-    },
-    "facts": {
-        "brand": "Tabuwa Prints",
-        "product": "Custom Ceramic Mugs",
-        "material": "ceramic",
-        "mug_options": [
-            "White ceramic",
-            "Magic (colour change)",
-            "Inner colour"
-        ],
-        "print_type": "Full-colour print",
-        "customization": "Customer supplies artwork",
-        "accepted_artwork_formats": [
-            "PDF",
-            "AI",
-            "EPS",
-            "PSD",
-            "PNG",
-            "JPG",
-            "JPEG",
-            "TIF",
-            "TIFF"
-        ],
-        "maximum_file_size_mb": 200,
-        "recommended_artwork": "Print-ready PDF; 300 DPI; CMYK; 3 mm bleed",
-        "minimum_order_quantity": 6,
-        "bulk_discount_24_to_99_percent": 12,
-        "bulk_discount_100_plus_percent": 25,
-        "production_time_business_days": "3-4",
-        "delivery": {
-            "riyadh_sar": 25,
-            "rest_of_saudi_arabia_sar": 50
+[
+    {
+        "id": "digital-product-jarir-prince-enchanted-ebook",
+        "product_type": "digital_product",
+        "name": "الأمير المسحور - eBook",
+        "source": {
+            "name": "Jarir Saudi Arabia",
+            "url": "https://www.jarir.com/sa-en/jarir-publication-jrb20710285.html",
+            "verified": "2026-09-17",
+            "notes": "Jarir listing states the eBook is added to the customer's Jarir Reader account."
         },
-        "vat": "included",
-        "price": "option-dependent; updates as options are selected",
-        "error_reprint": "Free reprint if Tabuwa Prints makes a mistake"
+        "facts": {
+            "title": "الأمير المسحور",
+            "format": "eBook",
+            "author": "كامل كيلاني",
+            "publisher": "مكتبة المشرق الإلكترونية",
+            "page_count": 656,
+            "price_sar": 3.99,
+            "delivery_method": "Added to Jarir Reader library",
+            "returns_exchange": "Not eligible for return/exchange",
+            "sku": "JRB20710285",
+            "language": "Arabic",
+            "story_summary": "A kind princess named Majda escapes a tyrant king, lives disguised as a village woman, encounters an evil fairy, and the story follows a magical curse affecting her son, whose only path to release is to be loved despite his appearance."
+        },
+        "copy_relevant_context": {
+            "customer_decisions": [
+                "what the story is about",
+                "format",
+                "page count",
+                "price",
+                "where the eBook is delivered",
+                "whether it is suitable for the intended reader"
+            ],
+            "supported_benefits": [
+                "digital reading without waiting for physical delivery",
+                "long-form story with 656 pages",
+                "available directly in the Jarir Reader library"
+            ],
+            "do_not_infer": [
+                "age suitability beyond what the listing establishes",
+                "quality compared with other editions",
+                "instant download outside Jarir Reader",
+                "physical copy included",
+                "return eligibility"
+            ]
+        }
     },
-    "copy_relevant_context": {
-        "customer_decisions": [
-            "mug type",
-            "custom artwork",
-            "minimum quantity",
-            "production time",
-            "delivery cost",
-            "bulk discounts",
-            "artwork requirements"
-        ],
-        "supported_benefits": [
-            "full-colour personalization",
-            "choice of white, colour-changing magic, or inner-colour mug",
-            "free reprint if the printer makes a mistake",
-            "bulk discounts at stated quantities"
-        ],
-        "do_not_infer": [
-            "dishwasher safety",
-            "microwave safety",
-            "print durability beyond stated source claims",
-            "free delivery",
-            "same-day production",
-            "custom mug dimensions not stated"
-        ]
+    {
+        "id": "food-afia-tamarind-500g",
+        "product_type": "food",
+        "name": "تمر هندي أفيا 500 جرام",
+        "source": {
+            "name": "Carrefour Saudi Arabia",
+            "url": "https://www.carrefourksa.com/mafsau/ar/dates/afia-tamarind-500-gm/p/728361",
+            "verified": "2026-09-17",
+            "notes": "Carrefour Saudi listing showed a 500 g pack; availability can change."
+        },
+        "facts": {
+            "brand": "Afia",
+            "product": "Tamarind",
+            "form": null,
+            "pack_size_g": 500,
+            "price_sar": 15.5,
+            "seller": "Carrefour",
+            "availability_at_verification": "out_of_stock"
+        },
+        "copy_relevant_context": {
+            "customer_decisions": [
+                "what the product is",
+                "pack size",
+                "price",
+                "availability"
+            ],
+            "supported_benefits": [
+                "500 g pack"
+            ],
+            "do_not_infer": [
+                "origin",
+                "freshness duration",
+                "sweetness or sourness level",
+                "ingredients not stated in the source",
+                "health or nutritional benefits",
+                "recipe performance",
+                "current availability beyond the verified listing status"
+            ]
+        }
+    },
+    {
+        "id": "ready-airpods-pro-3-white",
+        "product_type": "ready_product",
+        "name": "Apple AirPods Pro 3، أبيض",
+        "source": {
+            "name": "Apple Saudi Arabia + Jarir Saudi Arabia",
+            "urls": [
+                "https://www.apple.com/sa/airpods-pro/specs/",
+                "https://www.jarir.com/apple-airpods-pro-3-headsets-666611.html"
+            ],
+            "verified": "2026-09-17",
+            "notes": "Technical specifications cross-checked against Apple Saudi Arabia; Saudi retail price and SKU from Jarir."
+        },
+        "facts": {
+            "brand": "Apple",
+            "model": "AirPods Pro 3",
+            "color": "White",
+            "price_sar": 1049,
+            "price_includes_vat": true,
+            "seller": "Jarir",
+            "jarir_sku": "666611",
+            "manufacturer_number": "MFHP4ZEA",
+            "active_noise_cancellation": true,
+            "adaptive_audio": true,
+            "transparency_mode": true,
+            "conversation_awareness": true,
+            "voice_isolation": true,
+            "personalized_spatial_audio": true,
+            "heart_rate_sensing_during_workouts": true,
+            "hearing_test": true,
+            "hearing_aid": true,
+            "hearing_protection": true,
+            "chip": "Apple H2",
+            "ultra_wideband_chip": "Apple second-generation Ultra Wideband chip in MagSafe Charging Case",
+            "water_dust_resistance": "IP57",
+            "battery_listening_hours_with_anc": "up to 8 hours",
+            "battery_case_with_anc": "up to 24 hours",
+            "quick_charge": "5 minutes in the case provides around 1 hour of listening time",
+            "connectivity": "Bluetooth 5.3",
+            "charging_case": "MagSafe Charging Case (USB-C)",
+            "earbud_weight_g": 5.55,
+            "case_weight_g": 43.99,
+            "included_tip_sizes": [
+                "XXS",
+                "XS",
+                "S",
+                "M",
+                "L"
+            ],
+            "usb_c_cable_included": false,
+            "warranty": null
+        },
+        "copy_relevant_context": {
+            "customer_decisions": [
+                "noise cancellation",
+                "audio and listening modes",
+                "battery life",
+                "workout-related features",
+                "device compatibility",
+                "water/dust resistance",
+                "price"
+            ],
+            "supported_benefits": [
+                "reduces environmental noise with Active Noise Cancellation",
+                "switches between Adaptive Audio and Transparency mode",
+                "up to 8 hours listening with ANC on a single charge",
+                "heart-rate sensing during workouts",
+                "compact wireless listening with a 43.99 g charging case"
+            ],
+            "do_not_infer": [
+                "works with every Apple feature on every non-Apple device",
+                "fully waterproof",
+                "unlimited battery life",
+                "professional medical outcomes from hearing-related features",
+                "better sound quality than every competing headphone"
+            ]
+        }
+    },
+    {
+        "id": "booking-shawir-legal-consultation-15-min",
+        "product_type": "booking",
+        "name": "Shawir Legal Consultation — 15 Minutes",
+        "source": {
+            "name": "Shawir Saudi Arabia",
+            "url": "https://shawir.sa/en/",
+            "verified": "2026-09-17",
+            "notes": "Saudi legal-consultation platform listing. Service availability and pricing can change."
+        },
+        "facts": {
+            "brand": "Shawir",
+            "service": "Legal consultation session",
+            "duration_minutes": 15,
+            "price_sar": 250,
+            "extension_price_per_15_minutes_sar": 50,
+            "consultation_types": [
+                "Personal status",
+                "Labor cases"
+            ],
+            "communication_modes": [
+                "Text chat",
+                "Voice call",
+                "Video call"
+            ],
+            "availability": "Saudi Arabia",
+            "consultants": "Licensed lawyers",
+            "payment_methods": [
+                "Mada",
+                "Visa",
+                "Apple Pay"
+            ],
+            "tax_invoice": true,
+            "refund_policy": "Full refund 1 day before session"
+        },
+        "copy_relevant_context": {
+            "customer_decisions": [
+                "case type",
+                "consultation duration",
+                "price",
+                "communication mode",
+                "availability in Saudi Arabia",
+                "refund policy"
+            ],
+            "supported_benefits": [
+                "specialized legal consultation for personal status and labor cases",
+                "multiple communication modes",
+                "transparent fixed starting price",
+                "official tax invoice"
+            ],
+            "do_not_infer": [
+                "guaranteed legal outcome",
+                "lawyer identity before booking",
+                "legal representation included",
+                "consultation covers cases outside personal status and labor",
+                "24/7 consultant availability"
+            ]
+        }
+    },
+    {
+        "id": "digital-card-sony-playstation-store-100-usd-ksa",
+        "product_type": "digital_card",
+        "name": "Sony Gift Card $100 PlayStation Store — KSA",
+        "source": {
+            "name": "Jarir Bookstore Saudi Arabia",
+            "url": "https://www.jarir.com/sa-en/sony-sim-internet-call-and-payment-card-528509.html",
+            "verified": "2026-09-17",
+            "notes": "Saudi Jarir listing. The code is identified as a KSA PlayStation Store payment/recharge card and is delivered by email."
+        },
+        "facts": {
+            "brand": "Sony",
+            "card_type": "PlayStation Store Payment and Recharge Card",
+            "denomination_usd": 100,
+            "region": "KSA",
+            "price_sar": 375,
+            "price_includes_vat": null,
+            "delivery_method": "Email delivery",
+            "digital_code": true,
+            "return_exchange": false,
+            "seller": "Jarir",
+            "sku": "528509",
+            "manufacturer_number": "720098"
+        },
+        "copy_relevant_context": {
+            "customer_decisions": [
+                "PlayStation Store region",
+                "denomination",
+                "price",
+                "delivery method",
+                "return/exchange policy"
+            ],
+            "supported_benefits": [
+                "digital delivery to email",
+                "adds $100 of PlayStation Store value for the KSA region"
+            ],
+            "do_not_infer": [
+                "compatibility with USA or other regions",
+                "instant delivery time beyond email delivery",
+                "specific games or subscriptions included",
+                "ability to exchange for cash"
+            ]
+        }
+    },
+    {
+        "id": "made-to-order-custom-ceramic-mug-tabuwaprints",
+        "product_type": "made_to_order",
+        "name": "Custom Ceramic Mug — Tabuwa Prints",
+        "source": {
+            "name": "Tabuwa Prints Saudi Arabia",
+            "url": "https://tabuwaprints.com/en/products/ceramic-mugs",
+            "verified": "2026-09-17",
+            "notes": "Saudi custom-printing listing. Price updates based on selected options and shipping is added at checkout."
+        },
+        "facts": {
+            "brand": "Tabuwa Prints",
+            "product": "Custom Ceramic Mugs",
+            "material": "ceramic",
+            "mug_options": [
+                "White ceramic",
+                "Magic (colour change)",
+                "Inner colour"
+            ],
+            "print_type": "Full-colour print",
+            "customization": "Customer supplies artwork",
+            "accepted_artwork_formats": [
+                "PDF",
+                "AI",
+                "EPS",
+                "PSD",
+                "PNG",
+                "JPG",
+                "JPEG",
+                "TIF",
+                "TIFF"
+            ],
+            "maximum_file_size_mb": 200,
+            "recommended_artwork": "Print-ready PDF; 300 DPI; CMYK; 3 mm bleed",
+            "minimum_order_quantity": 6,
+            "bulk_discount_24_to_99_percent": 12,
+            "bulk_discount_100_plus_percent": 25,
+            "production_time_business_days": "3-4",
+            "delivery": {
+                "riyadh_sar": 25,
+                "rest_of_saudi_arabia_sar": 50
+            },
+            "vat": "included",
+            "price": "option-dependent; updates as options are selected",
+            "error_reprint": "Free reprint if Tabuwa Prints makes a mistake"
+        },
+        "copy_relevant_context": {
+            "customer_decisions": [
+                "mug type",
+                "custom artwork",
+                "minimum quantity",
+                "production time",
+                "delivery cost",
+                "bulk discounts",
+                "artwork requirements"
+            ],
+            "supported_benefits": [
+                "full-colour personalization",
+                "choice of white, colour-changing magic, or inner-colour mug",
+                "free reprint if the printer makes a mistake",
+                "bulk discounts at stated quantities"
+            ],
+            "do_not_infer": [
+                "dishwasher safety",
+                "microwave safety",
+                "print durability beyond stated source claims",
+                "free delivery",
+                "same-day production",
+                "custom mug dimensions not stated"
+            ]
+        }
+    },
+    {
+        "id": "ready-logitech-mx-keys-s-graphite",
+        "product_type": "ready_product",
+        "name": "Logitech MX Keys S Keyboard، Graphite",
+        "source": {
+            "name": "Jarir Bookstore Saudi Arabia",
+            "url": "https://www.jarir.com/sa-en/logitech-mx-keys-s-keyboard-mouse-combo-619741.html",
+            "verified": "2026-09-17",
+            "notes": "Saudi retail facts from Jarir. This test record intentionally does not include battery-life figures because they are not stated on the source listing used here."
+        },
+        "facts": {
+            "brand": "Logitech",
+            "model": "MX Keys S",
+            "color": "Graphite",
+            "price_sar": 549,
+            "price_includes_vat": true,
+            "seller": "Jarir",
+            "sku": "619741",
+            "manufacturer_number": "920011595",
+            "connection": [
+                "Bluetooth",
+                "2.4 GHz RF"
+            ],
+            "compatible_systems": [
+                "Android",
+                "macOS",
+                "iPadOS",
+                "Windows",
+                "ChromeOS"
+            ],
+            "warranty_months": 24,
+            "warranty_provider": "Jarir",
+            "battery_life": null
+        },
+        "copy_relevant_context": {
+            "customer_decisions": [
+                "wireless connectivity",
+                "device/OS compatibility",
+                "warranty",
+                "price",
+                "battery life"
+            ],
+            "supported_benefits": [
+                "wireless keyboard use via Bluetooth or 2.4 GHz RF",
+                "works across Android, macOS, iPadOS, Windows and ChromeOS"
+            ],
+            "do_not_infer": [
+                "battery life",
+                "backlight behavior",
+                "number of paired devices",
+                "charging interval",
+                "key layout beyond what the source states",
+                "typing feel or noise level"
+            ],
+            "missing_specs": [
+                "battery_life"
+            ],
+            "missing_spec_note": "Battery life is genuinely absent from the Jarir source listing used for this product record. Do not infer or import a number from model memory."
+        }
     }
-}
-
-
-
-{
-    "id": "ready-logitech-mx-keys-s-graphite",
-    "product_type": "ready_product",
-    "name": "Logitech MX Keys S Keyboard، Graphite",
-    "source": {
-        "name": "Jarir Bookstore Saudi Arabia",
-        "url": "https://www.jarir.com/sa-en/logitech-mx-keys-s-keyboard-mouse-combo-619741.html",
-        "verified": "2026-09-17",
-        "notes": "Saudi retail facts from Jarir. This test record intentionally does not include battery-life figures because they are not stated on the source listing used here."
-    },
-    "facts": {
-        "brand": "Logitech",
-        "model": "MX Keys S",
-        "color": "Graphite",
-        "price_sar": 549,
-        "price_includes_vat": true,
-        "seller": "Jarir",
-        "sku": "619741",
-        "manufacturer_number": "920011595",
-        "connection": ["Bluetooth", "2.4 GHz RF"],
-        "compatible_systems": [
-            "Android",
-            "macOS",
-            "iPadOS",
-            "Windows",
-            "ChromeOS"
-        ],
-        "warranty_months": 24,
-        "warranty_provider": "Jarir",
-        "battery_life": null
-    },
-    "copy_relevant_context": {
-        "customer_decisions": [
-            "wireless connectivity",
-            "device/OS compatibility",
-            "warranty",
-            "price",
-            "battery life"
-        ],
-        "supported_benefits": [
-            "wireless keyboard use via Bluetooth or 2.4 GHz RF",
-            "works across Android, macOS, iPadOS, Windows and ChromeOS"
-        ],
-        "missing_specs": ["battery_life"],
-        "missing_spec_note": "Battery life is genuinely absent from the Jarir source listing used for this product record. Do not infer or import a number from model memory."
-    },
-    "do_not_infer": [
-        "battery life",
-        "backlight behavior",
-        "number of paired devices",
-        "charging interval",
-        "key layout beyond what the source states",
-        "typing feel or noise level"
-    ]
-}
+]

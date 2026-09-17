@@ -1,250 +1,86 @@
 ---
 name: saudi-store-copy
-description: Produce and evaluate product copy for a Saudi-facing web store using project rules, product-type guidance, QA, golden examples, and a human-approved feedback-to-expertise loop.
+description: Write, review, revise, and QA fact-grounded product copy in contemporary Saudi Arabic for e-commerce. Use when the user asks for product descriptions or listing copy in Arabic for a Saudi store, or supplies product data to turn into customer-facing copy.
 metadata:
+    version: 0.3.0
     domain: ecommerce
     audience: saudi-arabic
     learning: human-approved
     model: replaceable
 ---
 
-# Saudi Store Copy — Agent Instructions
+# Saudi Store Copy
 
-## Purpose and Scope
+Turn one product record into one publish-ready Saudi Arabic listing that invents nothing, sounds like this store, passes the QA gate, and improves with every correction.
 
-This project is a reusable system for producing, reviewing, and maintaining product copy for a Saudi e-commerce store.
+## Flow
 
-`SKILL.md` defines how an agent operates this system.
+1. Identify the operation: create, revise, shorten, expand, adapt, or review.
+2. Identify the product type and read its card under `products/types/`.
+3. Read the product record. Separate confirmed facts from missing, conflicting, or `do_not_infer` information.
+4. Draft using only confirmed facts, following `STYLE.md` and `VOCABULARY.md`.
+5. Run the QA gate as an isolated pass, per `QA.md`. Do not evaluate while drafting.
+6. Revise failures and re-run QA. Finalize only when the gate passes.
 
-It defines:
+## Hard rules
 
-- project boundaries;
-- resource ownership;
-- the required operating workflow;
-- product-type selection;
-- source-of-truth behavior;
-- golden-set usage;
-- QA requirements;
-- handling of uncertainty and conflicts;
-- completion criteria.
+- Facts before copy. Never invent specifications, benefits, compatibility, guarantees, availability, or outcomes.
+- Never strengthen: no limitation broadened, no possibility turned into a guarantee, no specific use turned into universal use.
+- Numbers, units, model numbers, and variants stay exactly as supplied. Variants stay distinct.
+- No fact may cross between products, records, or golden examples.
+- `do_not_infer` and `missing_specs` in the record are hard constraints, not suggestions.
+- Missing fact: omit it, or list it in the Gaps note. If the task cannot be completed without it, return BLOCKED and ask.
+- Conflicting information: never average or guess. Surface the conflict.
+- The product record is read-only. Never edit or "repair" it.
+- Corrections change project rules only with explicit human approval.
 
-It does **not** define the actual Saudi Arabic writing style, vocabulary, detailed product schemas, or detailed QA tests. Those belong in their designated project resources.
+## Never ship
 
-The underlying language model is replaceable. Nothing in this file should depend on a specific model.
+- Fabricated facts, awards, certifications, reviews, ratings, or customer counts.
+- Guarantees or absolutes the record does not support: مضمون 100%، يضمن لك، مستحيل، لن يتعطل.
+- Unsupported superlatives: الأفضل، الأقوى، الأجود، الأحدث، رقم 1، لا مثيل له.
+- Fake urgency or scarcity: آخر فرصة، الكمية محدودة، لا تفوتها.
+- Empty praise with no product-specific subject: جودة عالية، تجربة استثنائية، تصميم مميز.
+- Unsupported health, financial, safety, or legal claims.
+- Forced Saudi slang, literal translation, or inflated corporate Arabic.
+- Internal QA language, "Missing info" lines, or process commentary inside customer copy.
 
----
+## Product types
 
-## Core Principles
+| Type | Card | ID |
+|---|---|---|
+| Ready-made physical products | `products/types/ready-product.md` | `ready_product` |
+| Custom / made-to-order services | `products/types/made-to-order.md` | `made_to_order` |
+| Food and beverages | `products/types/food.md` | `food` |
+| Digital products | `products/types/digital-product.md` | `digital_product` |
+| Recharge cards and codes | `products/types/digital-card.md` | `digital_card` |
+| Bookable services | `products/types/booking.md` | `booking` |
 
-### Facts before copy
+If a product does not fit a type, surface the mismatch; do not force it.
 
-Copy must be based on available product information.
+## Output contract
 
-The agent must not invent product specifications, features, ingredients, compatibility, guarantees, outcomes, certifications, availability, or other factual claims.
+- **Copy** — customer-facing only. No QA language, no missing-info lines, no process commentary.
+- **Gaps note** — operator-facing bullets below the copy naming what was omitted and why (missing from source, conflicting, or out of scope). Required whenever a relevant fact was withheld.
+- **QA failure** — a report with severity, category, problem, evidence, location, and required action (`QA.md`). Revise and re-run; never bypass.
 
-Persuasive wording may improve presentation but must not create new product facts.
+Batch: process each record independently; never carry facts, variants, or assumptions between products.
 
-### Project knowledge has defined ownership
+## Golden set
 
-Use each resource for the kind of knowledge it owns:
+`golden-set/` holds approved copies used for calibration. Use them for qualities (naturalness, structure, restraint), never as fact sources. Do not copy wording mechanically. Changing the set is a human decision.
 
-| Resource              | Authority                                   |
-| --------------------- | ------------------------------------------- |
-| `SKILL.md`            | Project operation and boundaries            |
-| `STYLE.md`            | Writing behavior and style                  |
-| `products/templates/` | Product-data structure                      |
-| `golden-set/`         | Approved examples and evaluation references |
-| `qa/`                 | Validation procedures                       |
+## Learning capture
 
-Do not duplicate detailed rules between these areas.
+When the user corrects copy:
 
-### Model output is not project knowledge
+1. apply the correction to that deliverable;
+2. propose an entry in `feedback/FEEDBACK.md` with the likely destination;
+3. edit `STYLE.md`, `VOCABULARY.md`, a type card, or the golden set only after explicit approval;
+4. mark promoted entries as such.
 
-Do not treat generated text, model memory, or assumptions about a product category as authoritative product information.
+The agent never promotes its own preferences into project rules.
 
-### Use relevant context
+## Completion criteria
 
-Identify the task and product type before selecting project resources.
-
-Do not indiscriminately load unrelated product schemas or examples.
-
-### Generation is not completion
-
-Generated copy is a draft until the applicable QA gate has passed.
-
----
-
-## Required Working Sequence
-
-Follow this sequence for product-copy work:
-
-1. **Understand the task**
-   Determine what is being requested.
-
-2. **Identify the product type**
-   Select the applicable product template.
-
-3. **Load relevant project resources**
-   Consult the required writing guidance, product template, relevant golden-set material, and applicable QA instructions.
-
-4. **Inspect product facts**
-   Separate confirmed facts from missing, ambiguous, or conflicting information.
-
-5. **Generate or revise copy**
-   Follow the project's writing instructions and use only supported product facts.
-
-6. **Run QA**
-   Apply the applicable QA process.
-
-7. **Revise failures**
-   Correct issues without weakening the rules that detected them.
-
-8. **Finalize**
-   Only mark the copy as final after the applicable QA gate is satisfied.
-
-Do not generate final copy using model knowledge alone when the relevant project resources are available but have not been consulted.
-
----
-
-## Product Types
-
-The project currently supports six operational product types:
-
-### 1. Ready-Made Products
-
-Physical products that can be shipped as sold.
-
-Template: `products/templates/ready-made.md`
-
-### 2. Custom Services
-
-Made-to-order work such as design, printing, research, writing, and similar services.
-
-Template: `products/templates/made-to-order.md`
-
-### 3. Food
-
-Food and beverages requiring specialized shipping, handling, storage, or delivery.
-
-Template: `products/templates/food.md`
-
-### 4. Digital Products
-
-Digitally delivered products such as ebooks, courses, and downloadable files.
-
-Template: `products/templates/digital-product.md`
-
-### 5. Digital Cards
-
-Recharge cards, account credits, codes, and similar digitally delivered products.
-
-Template: `products/templates/digital-card.md`
-
-### 6. Bookings
-
-Bookable services or appointments such as courses, consultations, medical services, and similar offerings.
-
-Template: `products/templates/booking.md`
-
-These are **data and workflow categories**, not writing-style categories.
-
-If a product does not fit an existing category, do not force it into an unsuitable template. Surface the mismatch and determine whether the taxonomy or template needs to change.
-
----
-
-## Source-of-Truth Rules
-
-Product source data must be treated as source data, not as draft prose.
-
-The agent must not silently rewrite, "correct," normalize, or invent product facts in source files merely to make copy generation easier.
-
-When information is missing:
-
-- omit unsupported claims;
-- use neutral wording when possible;
-- surface the missing information when it is necessary for a valid result.
-
-When sources conflict:
-
-- do not guess;
-- do not average conflicting values;
-- do not choose the more persuasive value;
-- use an explicitly established authoritative source when one exists;
-- otherwise surface the conflict and avoid relying on the disputed claim.
-
-Generated copy never becomes a source of truth merely because it was previously approved.
-
----
-
-## Golden Set
-
-The golden set contains intentionally approved examples used to teach, compare, and evaluate output.
-
-Use it as reference evidence for qualities such as:
-
-- naturalness;
-- structure;
-- promotional level;
-- category-appropriate presentation.
-
-Golden-set examples do not override explicit project rules.
-
-Do not copy distinctive wording unnecessarily.
-
-Do not treat an example's product-specific facts as facts about another product.
-
-Do not modify an approved example merely to make generated output appear to pass.
-
-Changes to the golden set are deliberate project changes and should be treated as such.
-
----
-
-## QA Gate
-
-QA is mandatory and blocking.
-
-A description is not final merely because it has been generated or reviewed informally.
-
-The detailed checks live in `qa/`. Follow those checks rather than recreating them in this file.
-
-When a required QA check fails:
-
-1. revise the output;
-2. run the applicable check again;
-3. do not bypass or weaken the check simply to obtain a passing result.
-
-When a failure cannot be resolved because required information is missing or contradictory, surface the issue instead of fabricating a solution.
-
----
-
-## Change Discipline
-
-Keep project knowledge in the resource that owns it.
-
-- Change `SKILL.md` for project operation, boundaries, workflow, or authority.
-- Change `STYLE.md` for writing behavior and style.
-- Change a product template for product-data structure.
-- Change `qa/` for validation rules and checks.
-- Change the golden set when an example has been intentionally approved as reference material.
-
-Do not solve ambiguity by duplicating the same rule across multiple files.
-
-Do not alter source product information merely to satisfy a writing or QA requirement.
-
-When changing project structure, preserve compatibility with existing product data and approved examples unless the change intentionally requires migration.
-
----
-
-## Completion Criteria
-
-A product-copy task is complete only when:
-
-1. the task and applicable product type were identified;
-2. the relevant project resources were consulted;
-3. available product facts were inspected;
-4. unsupported factual claims were not introduced;
-5. the applicable QA gate passed;
-6. unresolved information gaps or conflicts were explicitly surfaced;
-7. the resulting work follows the current project boundaries.
-
-When these conditions cannot be satisfied, the correct behavior is to surface the limitation rather than manufacture missing information.
+Copy is final only when: the task was completed; only supported facts were used; the QA gate passed; withheld facts are listed in the Gaps note; and unresolved information problems were surfaced.

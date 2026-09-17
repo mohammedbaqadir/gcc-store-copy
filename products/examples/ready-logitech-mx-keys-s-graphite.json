@@ -1,0 +1,60 @@
+{
+    "id": "ready-logitech-mx-keys-s-graphite",
+    "product_type": "ready_product",
+    "name": "Logitech MX Keys S Keyboard، Graphite",
+    "source": {
+        "name": "Jarir Bookstore Saudi Arabia",
+        "url": "https://www.jarir.com/sa-en/logitech-mx-keys-s-keyboard-mouse-combo-619741.html",
+        "verified": "2026-09-17",
+        "notes": "Saudi retail facts from Jarir. This test record intentionally does not include battery-life figures because they are not stated on the source listing used here."
+    },
+    "facts": {
+        "brand": "Logitech",
+        "model": "MX Keys S",
+        "color": "Graphite",
+        "price_sar": 549,
+        "price_includes_vat": true,
+        "seller": "Jarir",
+        "sku": "619741",
+        "manufacturer_number": "920011595",
+        "connection": [
+            "Bluetooth",
+            "2.4 GHz RF"
+        ],
+        "compatible_systems": [
+            "Android",
+            "macOS",
+            "iPadOS",
+            "Windows",
+            "ChromeOS"
+        ],
+        "warranty_months": 24,
+        "warranty_provider": "Jarir",
+        "battery_life": null
+    },
+    "copy_relevant_context": {
+        "customer_decisions": [
+            "wireless connectivity",
+            "device/OS compatibility",
+            "warranty",
+            "price",
+            "battery life"
+        ],
+        "supported_benefits": [
+            "wireless keyboard use via Bluetooth or 2.4 GHz RF",
+            "works across Android, macOS, iPadOS, Windows and ChromeOS"
+        ],
+        "do_not_infer": [
+            "battery life",
+            "backlight behavior",
+            "number of paired devices",
+            "charging interval",
+            "key layout beyond what the source states",
+            "typing feel or noise level"
+        ],
+        "missing_specs": [
+            "battery_life"
+        ],
+        "missing_spec_note": "Battery life is genuinely absent from the Jarir source listing used for this product record. Do not infer or import a number from model memory."
+    }
+}

@@ -1,8 +1,6 @@
 # Feedback Log
 
-Log corrections here as you find them. Format: one entry per issue.
-
----
+Corrections that may become store rules. The agent may propose entries; only a human approves promotion into the owning file.
 
 ## Template
 
@@ -10,9 +8,9 @@ Log corrections here as you find them. Format: one entry per issue.
 **Product/example:**
 **What was wrong:**
 **What it should be instead:**
-**Likely destination:** (STYLE.md / RULES.md / VOCABULARY.md / FORBIDDEN.md / golden-set/)
-**Status:** logged / promoted
+**Likely destination:** STYLE.md / VOCABULARY.md / a type card / golden set
+**Status:** proposed / promoted
 
 ---
 
-<!-- Entries go below this line -->
+<!-- Entries below this line -->
