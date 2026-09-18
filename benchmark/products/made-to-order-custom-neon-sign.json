@@ -1,0 +1,28 @@
+{
+    "id": "made-to-order-custom-neon-sign",
+    "product_type": "made_to_order",
+    "name": "لوحة نيون LED مخصصة — نص عربي أو إنجليزي",
+    "source": {
+        "name": "Benchmark fixture",
+        "url": "https://example.com/benchmark/neon-sign",
+        "verified": "2026-09-18",
+        "notes": "Synthetic benchmark record; specs are illustrative, not a real listing."
+    },
+    "facts": {
+        "type": "لوحة LED نيون",
+        "custom_text": true,
+        "sizes_cm": ["30", "50", "80"],
+        "colors": ["أبيض دافئ", "وردي", "أزرق"],
+        "power": "USB",
+        "usage": "داخلي",
+        "production_days": "5-7 أيام عمل",
+        "delivery_sar": 30,
+        "price_from_sar": 249,
+        "price_note": "السعر حسب المقاس المختار"
+    },
+    "copy_relevant_context": {
+        "customer_decisions": ["size options", "colors", "indoor use", "production time", "price"],
+        "supported_benefits": ["ثلاثة مقاسات", "ثلاثة ألوان", "تشتغل بـ USB", "تصميم بنص مخصص"],
+        "do_not_infer": ["outdoor durability", "brightness level", "lifespan hours", "waterproofing", "exact production or delivery date", "mounting hardware included"]
+    }
+}

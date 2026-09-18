@@ -1,0 +1,26 @@
+{
+    "id": "digital-product-wedding-invitation-templates",
+    "product_type": "digital_product",
+    "name": "12 قالب دعوة زفاف قابل للتعديل — عربي وإنجليزي",
+    "source": {
+        "name": "Benchmark fixture",
+        "url": "https://example.com/benchmark/invitation-templates",
+        "verified": "2026-09-18",
+        "notes": "Synthetic benchmark record; specs are illustrative, not a real listing."
+    },
+    "facts": {
+        "format": "قوالب Canva",
+        "template_count": 12,
+        "languages": ["العربية", "الإنجليزية"],
+        "editable": true,
+        "delivery": "رابط تحميل بعد الشراء",
+        "license": "استخدام شخصي فقط — غير مسموح بإعادة البيع",
+        "price_sar": 89,
+        "price_includes_vat": true
+    },
+    "copy_relevant_context": {
+        "customer_decisions": ["what is included", "editability", "license", "price"],
+        "supported_benefits": ["12 قالبًا", "قابلة للتعديل", "بالعربية والإنجليزية", "توصيل برابط تحميل"],
+        "do_not_infer": ["print shop compatibility", "commercial or resale rights", "included font licensing", "returns for digital files", "custom design service", "instant delivery timing"]
+    }
+}

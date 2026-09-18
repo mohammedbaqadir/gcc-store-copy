@@ -1,0 +1,27 @@
+{
+    "id": "ready-nike-air-zoom-pegasus-41",
+    "product_type": "ready_product",
+    "name": "حذاء Nike Air Zoom Pegasus 41 — أسود/رمادي",
+    "source": {
+        "name": "Benchmark fixture",
+        "url": "https://example.com/benchmark/nike-pegasus-41",
+        "verified": "2026-09-18",
+        "notes": "Synthetic benchmark record; specs are illustrative, not a real listing."
+    },
+    "facts": {
+        "brand": "Nike",
+        "model": "Air Zoom Pegasus 41",
+        "color": "أسود/رمادي",
+        "sizes_available": [40, 41, 42, 43, 44, 45],
+        "heel_to_toe_drop_mm": 10,
+        "sku": "NK-P41-BK",
+        "price_sar": 479,
+        "price_includes_vat": true
+    },
+    "copy_relevant_context": {
+        "customer_decisions": ["size availability", "intended use", "price"],
+        "supported_benefits": ["متوفر بمقاسات من 40 إلى 45", "فرق ارتفاع 10 مم بين الكعب ومقدمة القدم"],
+        "do_not_infer": ["cushioning level", "weight", "breathability", "durability", "suitable terrain", "pronation support", "water resistance", "best use case"],
+        "missing_specs": ["weight_g", "upper_material"]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": "booking-driving-lesson-60-min",
+    "product_type": "booking",
+    "name": "درس قيادة عملي — 60 دقيقة، سيارة أوتوماتيك",
+    "source": {
+        "name": "Benchmark fixture",
+        "url": "https://example.com/benchmark/driving-lesson",
+        "verified": "2026-09-18",
+        "notes": "Synthetic benchmark record; specs are illustrative, not a real listing."
+    },
+    "facts": {
+        "service": "درس قيادة عملي",
+        "duration_minutes": 60,
+        "car": "أوتوماتيك",
+        "location": "الرياض",
+        "pickup_included": false,
+        "price_sar": 180,
+        "price_includes_vat": true,
+        "reschedule": "تأجيل مجاني قبل 12 ساعة"
+    },
+    "copy_relevant_context": {
+        "customer_decisions": ["what the lesson includes", "duration", "car type", "location", "price"],
+        "supported_benefits": ["60 دقيقة", "سيارة أوتوماتيك", "تأجيل مجاني قبل 12 ساعة"],
+        "do_not_infer": ["passing the driving test", "instructor gender", "car model or year", "license issuance", "available times", "pickup service"]
+    }
+}

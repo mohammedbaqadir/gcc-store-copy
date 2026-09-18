@@ -1,0 +1,29 @@
+{
+    "id": "ready-delonghi-dedica-coffee-machine",
+    "product_type": "ready_product",
+    "name": "ماكينة قهوة De'Longhi Dedica Style — ستانلس ستيل",
+    "source": {
+        "name": "Benchmark fixture",
+        "url": "https://example.com/benchmark/delonghi-dedica",
+        "verified": "2026-09-18",
+        "notes": "Synthetic benchmark record; specs are illustrative, not a real listing."
+    },
+    "facts": {
+        "brand": "De'Longhi",
+        "model": "Dedica Style EC685",
+        "color": "ستانلس ستيل",
+        "pressure_bar": 15,
+        "water_tank_l": 1.1,
+        "works_with": ["قهوة مطحونة", "أكواب ESE"],
+        "width_cm": 15,
+        "warranty_months": 24,
+        "price_sar": 549,
+        "price_includes_vat": true
+    },
+    "copy_relevant_context": {
+        "customer_decisions": ["what it makes", "counter footprint", "compatibility", "price", "warranty"],
+        "supported_benefits": ["ضغط 15 بار", "عرض 15 سم فقط", "تعمل بالقهوة المطحونة وأكواب ESE"],
+        "do_not_infer": ["coffee taste superiority", "milk frother included", "descale frequency", "energy rating", "capsule compatibility", "built-in grinder"],
+        "missing_specs": ["milk_frother", "weight_kg"]
+    }
+}

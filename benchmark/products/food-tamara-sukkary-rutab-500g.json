@@ -1,0 +1,24 @@
+{
+    "id": "food-tamara-sukkary-rutab-500g",
+    "product_type": "food",
+    "name": "تمارا سكري رطب — علبة 500 جرام",
+    "source": {
+        "name": "Benchmark fixture",
+        "url": "https://example.com/benchmark/tamara-rutab",
+        "verified": "2026-09-18",
+        "notes": "Synthetic benchmark record; specs are illustrative, not a real listing."
+    },
+    "facts": {
+        "brand": "تمارا",
+        "product": "سكري رطب",
+        "pack_size_g": 500,
+        "price_sar": 13.99,
+        "price_includes_vat": true,
+        "availability_at_verification": "in_stock"
+    },
+    "copy_relevant_context": {
+        "customer_decisions": ["type and condition", "pack size", "price"],
+        "supported_benefits": ["سكري رطب", "عبوة 500 جرام"],
+        "do_not_infer": ["origin", "shelf life", "sweetness level beyond the variety name", "health or nutritional benefits", "farm or harvest date", "organic status"]
+    }
+}

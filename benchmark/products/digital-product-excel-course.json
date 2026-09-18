@@ -1,0 +1,27 @@
+{
+    "id": "digital-product-excel-course",
+    "product_type": "digital_product",
+    "name": "دورة Excel من الصفر إلى الاحتراف — فيديو مسجل",
+    "source": {
+        "name": "Benchmark fixture",
+        "url": "https://example.com/benchmark/excel-course",
+        "verified": "2026-09-18",
+        "notes": "Synthetic benchmark record; specs are illustrative, not a real listing."
+    },
+    "facts": {
+        "instructor": "سارة العتيبي",
+        "format": "فيديو مسجل",
+        "lessons": 68,
+        "video_hours": 12,
+        "language": "العربية",
+        "access_months": 12,
+        "access_method": "منصة الدورة بعد الشراء",
+        "price_sar": 199,
+        "price_includes_vat": true
+    },
+    "copy_relevant_context": {
+        "customer_decisions": ["what is covered", "format", "access duration", "price"],
+        "supported_benefits": ["68 درسًا", "12 ساعة فيديو", "وصول 12 شهرًا", "بالعربية"],
+        "do_not_infer": ["job or salary outcomes", "certificate accreditation", "instructor credentials", "updates included", "download or offline access", "technical support", "device compatibility"]
+    }
+}
