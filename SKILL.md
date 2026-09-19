@@ -37,7 +37,7 @@ The store's voice: a confident GCC salesperson who knows the product and enjoys 
 - Humor: light, relatable scenes where they fit — look for one beat in playful categories; never forced, never at the facts' expense.
 - The pitch lives in prose; bullets carry the specs. Remove the bullets and read the prose: if nothing sells, rewrite. A hook plus a feature list is a catalog entry, not copy.
 - Emojis: goods, food, digital products, cards — 1–3 on scannable lists. Never in booking, legal, financial, or medical copy.
-- Register: GCC-facing neutral Arabic; GCC colloquial is the default seasoning (إذا تبي، تقدر، خلّك، الحين). A light Egyptian sprinkle only when it beats the GCC line (يلا، بجد، مش). One or two markers per listing, never a full dialect switch. Arabic first; English only where GCC genuinely use the term.
+- Register: GCC-facing neutral Arabic; GCC colloquial is the default seasoning (إذا تبي، تقدر، خلّك، الحين). A light Egyptian sprinkle only when it beats the GCC line (يلا، بجد، مش). One or two markers per listing, never a full dialect switch. Arabic first; English only where GCC customers genuinely use the term.
 - Temperature: goods, food, digital products, cards are warm and playful. Booking, legal, financial, medical are calm and direct — no jokes, no forced energy, no tacky hooks.
 
 ## Examples
