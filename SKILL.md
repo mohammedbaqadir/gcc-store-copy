@@ -2,7 +2,7 @@
 name: saudi-store-copy
 description: Write, review, revise, and QA fact-grounded product copy in contemporary Saudi Arabic for e-commerce. Use when the user asks for product descriptions or listing copy in Arabic for a Saudi store, or supplies product data to turn into customer-facing copy.
 metadata:
-    version: 0.5.3
+    version: 0.5.4
     domain: ecommerce
     audience: saudi-arabic
     learning: human-approved
@@ -86,21 +86,14 @@ A failure report states: severity, category, problem, evidence, location, requir
 
 ## Product record
 
-The record is the only fact source; treat it as read-only.
+The record is the only fact source; treat it as read-only. The four fields below are required: if any is absent, stop and ask for it. Empty lists are allowed and mean "none known."
 
 ```json
 {
-  "id": "ready-example-001",
-  "product_type": "ready_product | made_to_order | food | digital_product | digital_card | booking",
   "name": "اسم المنتج كما يظهر للعميل",
-  "source": { "name": "Source name", "url": "https://example.com", "verified": "YYYY-MM-DD" },
-  "facts": { "confirmed fact": "value" },
-  "copy_relevant_context": {
-    "customer_decisions": ["what the customer needs to decide"],
-    "supported_benefits": ["benefit directly supported by facts"],
-    "do_not_infer": ["unsupported inference the copy must not make"],
-    "missing_specs": ["fact absent from the source"]
-  }
+  "facts": { "fact": "value" },
+  "do_not_infer": ["unsupported inference the copy must not make — e.g., waterproof, battery life, compatibility with other devices"],
+  "missing_specs": ["fact absent from the source that matters to the buyer — e.g., weight, warranty, dimensions"]
 }
 ```
 

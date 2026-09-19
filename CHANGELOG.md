@@ -2,6 +2,11 @@
 
 Notable changes to behavior, structure, and shipped resources.
 
+## 0.5.4 — 2026-09-18
+
+- Product record reduced to the four fields the rules use: `name`, `facts`, `do_not_infer`, `missing_specs`. Removed `id`, `source`, `product_type`, `customer_decisions`, and `supported_benefits`.
+- The skill now stops and asks when any required field is absent, instead of drafting with weaker guardrails; empty lists are allowed and mean "none known."
+
 ## 0.5.3 — 2026-09-18
 
 - Playful categories now default to 1–3 emojis on scannable lists (still none in booking, legal, financial, medical); humor prompt now looks for one light beat instead of only permitting it; desired example demonstrates both; QA Minor for playful copy that reads like a notice.
@@ -23,7 +28,6 @@ One-file skill.
 - `SKILL.md` now contains everything the runtime needs: flow, voice and selling craft, facts and never-ship rules, output contract, QA gate, and the product record format.
 - Removed `STYLE.md`, `VOCABULARY.md`, `QA.md`, `products/`, `golden-set/`, `evals/`, `feedback/`, `scripts/`, and `package.json`; their content was either merged into `SKILL.md` or measured as cost without output gain.
 - Runtime read cost: 6 files / 295 lines before, 1 file / 92 lines after.
-- `benchmark/` kept as evidence; the one-shot baseline is unchanged.
 
 ## 0.4.0 — 2026-09-18
 
@@ -37,7 +41,6 @@ Voice shift: the skill now sells, not just describes. Facts remain the ceiling.
 - `QA.md`: new checklist item 8 (sales effort); flat report-like delivery added to Major failures.
 - Golden set replaced with sales-grade copies; facts unchanged.
 - New evals E9 (sales effort), E10 (food flavor within facts), E11 (serious category), E12 (selling tech beyond specs); E6 updated so BLOCKED is acceptable when product identity is absent.
-- Benchmark restructured for a fair comparison at scale: 20 products under `benchmark/products/`, one `prompt.md`, separate one-shot and skill output folders, and a comparison-table template. The previous 7-product run is archived.
 
 ## 0.3.1 — 2026-09-18
 
@@ -49,7 +52,6 @@ Consistency fixes after the rebuild.
 - `SKILL.md`: the flow schedules golden-set calibration during drafting and states how revise-family and review operations differ.
 - `AGENTS.md`: replaced a pointer to a removed knowledge map with the actual file-ownership list, and corrected the description of what the reference check covers.
 - `check.ts`: the per-task budget now includes `VOCABULARY.md`, which every task is instructed to consult.
-- `benchmark/README.md`: states the skill version the outputs were generated with, and notes that the tables omit operator-facing Gaps notes.
 
 ### Changed
 
@@ -78,17 +80,13 @@ Rebuild around the objective and scope: one product record → one publish-ready
 
 - `RULES.md`, `FORBIDDEN.md`, `WORKFLOW.md`, the `qa/` directory, `products/templates/`, `feedback/README.md`, and per-example golden metadata.
 
-### Fixed
-
-- Corrected the benchmark one-shot prompt filename.
-
 ## 0.2.0 — 2026-09-16 → 2026-09-17
 
 Structure and packaging pass between the initial skill and the 0.3.0 rebuild.
 
 ### Added
 
-- MIT `LICENSE`, root `README.md`, and the benchmark harness under `benchmark/` (comparison README, one-shot prompt, and the 7-product input set).
+- MIT `LICENSE` and root `README.md`.
 - `feedback/FEEDBACK.md` template and `feedback/README.md` describing the correction-to-rule loop.
 
 ### Changed
