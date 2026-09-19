@@ -16,13 +16,6 @@ Copy `SKILL.md` into your agent's skills directory:
 
 Provide one product record (JSON) per product and ask for copy. The record format is documented in `SKILL.md`.
 
-## Operations
-
-- **Create** — new copy from the record.
-- **Revise** — fix or improve while preserving valid facts.
-- **Shorten / Expand / Adapt** — change length or format without changing factual meaning.
-- **Review** — evaluate existing copy against the rules and QA gate.
-
 ## License
 
 MIT — see `LICENSE`.
