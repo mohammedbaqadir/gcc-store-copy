@@ -1,17 +1,17 @@
 ---
-name: saudi-store-copy
-description: Write, review, revise, and QA fact-grounded product copy in contemporary Saudi Arabic for e-commerce. Use when the user asks for product descriptions or listing copy in Arabic for a Saudi store, or supplies product data to turn into customer-facing copy.
+name: gcc-store-copy
+description: Write, review, revise, and QA fact-grounded product copy in contemporary GCC Arabic for e-commerce. Use when the user asks for product descriptions or listing copy in Arabic for a GCC store, or supplies product data to turn into customer-facing copy.
 metadata:
     version: 0.5.4
     domain: ecommerce
-    audience: saudi-arabic
+    audience: gcc-arabic
     learning: human-approved
     model: replaceable
 ---
 
-# Saudi Store Copy
+# GCC Store Copy
 
-Turn one product record into one publish-ready Saudi Arabic listing that sells, invents nothing, and passes the QA gate. This file is the whole skill.
+Turn one product record into one publish-ready GCC Arabic listing that sells, invents nothing, and passes the QA gate. This file is the whole skill.
 
 ## Flow
 
@@ -23,7 +23,7 @@ Turn one product record into one publish-ready Saudi Arabic listing that sells, 
 
 ## Voice and selling craft
 
-The store's voice: a confident Saudi salesperson who knows the product and enjoys selling it. Modern commercial Arabic — natural spoken sensibility, polished writing. It informs, but its job is to sell.
+The store's voice: a confident GCC salesperson who knows the product and enjoys selling it. Modern commercial Arabic — natural spoken sensibility, polished writing. It informs, but its job is to sell.
 
 - Open with a hook, not a category statement: a question, a moment, a benefit, a small surprise.
 - Map a supplied spec to the customer's real life only when the link is direct; otherwise state the fact plainly. Specs alone don't sell.
@@ -37,7 +37,7 @@ The store's voice: a confident Saudi salesperson who knows the product and enjoy
 - Humor: light, relatable scenes where they fit — look for one beat in playful categories; never forced, never at the facts' expense.
 - The pitch lives in prose; bullets carry the specs. Remove the bullets and read the prose: if nothing sells, rewrite. A hook plus a feature list is a catalog entry, not copy.
 - Emojis: goods, food, digital products, cards — 1–3 on scannable lists. Never in booking, legal, financial, or medical copy.
-- Register: Saudi-facing neutral Arabic; Saudi colloquial is the default seasoning (إذا تبي، تقدر، خلّك، الحين). A light Egyptian sprinkle only when it beats the Saudi line (يلا، بجد، مش). One or two markers per listing, never a full dialect switch. Arabic first; English only where Saudis genuinely use the term.
+- Register: GCC-facing neutral Arabic; GCC colloquial is the default seasoning (إذا تبي، تقدر، خلّك، الحين). A light Egyptian sprinkle only when it beats the GCC line (يلا، بجد، مش). One or two markers per listing, never a full dialect switch. Arabic first; English only where GCC genuinely use the term.
 - Temperature: goods, food, digital products, cards are warm and playful. Booking, legal, financial, medical are calm and direct — no jokes, no forced energy, no tacky hooks.
 
 ## Examples
@@ -74,7 +74,7 @@ Run after drafting stops, as a separate pass. Use a subagent or fresh context wh
 1. **Claim support** — every claim (explicit, implied, comparative, outcome) traces to the record. Plausibility is not evidence. Mapping restates a fact; any implied capability (switching, pairing, cross-use) must itself be in the record.
 2. **Numbers and variants** — every price, quantity, dimension, duration, date, model, and compatibility list matches exactly. No rounding, conversion, or reinterpretation.
 3. **Never-ship** — scan the list above; synonyms count, not just the examples.
-4. **Language** — would this appear on a competent Saudi store without sounding translated, artificially formal, slang-forced, performative, or flat like a report?
+4. **Language** — would this appear on a competent GCC store without sounding translated, artificially formal, slang-forced, performative, or flat like a report?
 5. **Genericity** — strip the product facts; if the prose still stands, it is filler.
 6. **Completeness** — the customer understands what it is, what matters, how it is delivered or used; withheld relevant facts are in the Gaps note.
 7. **Sales effort** — delete the bullets and read the prose alone: does a pitch remain? Hook plus feature list, or a spec sheet with a CTA, is Major. So is energy that outruns the facts. Playful categories with no warmth or emoji at all, reading like a notice: Minor.

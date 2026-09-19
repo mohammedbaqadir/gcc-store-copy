@@ -35,8 +35,8 @@ Voice shift: the skill now sells, not just describes. Facts remain the ceiling.
 
 ### Changed
 
-- `STYLE.md` rewritten around a selling mandate: mandatory hook and sales effort, real-life mapping of specs, occasions as persuasion, bonuses framed as good news, technical detail demoted, wholesome not pushy, rhythm, CTA where natural, category temperature (playful for goods and food, calm and direct for booking, legal, financial, medical), and a register policy — Saudi colloquial as the default seasoning with a light Egyptian sprinkle only when it beats the Saudi line.
-- `VOCABULARY.md` gains a marketing-flavor group (يلا، بجد، مش، زي، خلّك/خليك); the Saudi conversational moves are promoted from Candidate to Contextual; the starter lexicon is de-duplicated.
+- `STYLE.md` rewritten around a selling mandate: mandatory hook and sales effort, real-life mapping of specs, occasions as persuasion, bonuses framed as good news, technical detail demoted, wholesome not pushy, rhythm, CTA where natural, category temperature (playful for goods and food, calm and direct for booking, legal, financial, medical), and a register policy — GCC colloquial as the default seasoning with a light Egyptian sprinkle only when it beats the GCC line.
+- `VOCABULARY.md` gains a marketing-flavor group (يلا، بجد، مش، زي، خلّك/خليك); the GCC conversational moves are promoted from Candidate to Contextual; the starter lexicon is de-duplicated.
 - `SKILL.md`: new hard rule — sell within the facts; inviting action is clarified as allowed while urgency claims remain banned.
 - `QA.md`: new checklist item 8 (sales effort); flat report-like delivery added to Major failures.
 - Golden set replaced with sales-grade copies; facts unchanged.
@@ -59,7 +59,7 @@ Consistency fixes after the rebuild.
 
 ## 0.3.0 — 2026-09-17
 
-Rebuild around the objective and scope: one product record → one publish-ready Saudi Arabic listing, with no process prose in the reading path.
+Rebuild around the objective and scope: one product record → one publish-ready GCC Arabic listing, with no process prose in the reading path.
 
 ### Added
 

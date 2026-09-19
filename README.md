@@ -1,6 +1,6 @@
-# Saudi Store Copy
+# GCC Store Copy
 
-One-file agent skill for selling product copy in contemporary Saudi Arabic. It uses only the facts you supply, makes a real sales effort, runs a blocking QA gate, and keeps customer copy separate from an operator-facing Gaps note.
+One-file agent skill for selling product copy in contemporary GCC Arabic. It uses only the facts you supply, makes a real sales effort, runs a blocking QA gate, and keeps customer copy separate from an operator-facing Gaps note.
 
 Everything the agent needs is in `SKILL.md`.
 
@@ -8,8 +8,8 @@ Everything the agent needs is in `SKILL.md`.
 
 Copy `SKILL.md` into your agent's skills directory:
 
-- **Claude Code**: `~/.claude/skills/saudi-store-copy/SKILL.md` (global) or `.claude/skills/saudi-store-copy/SKILL.md` (project)
-- **OpenCode**: `~/.config/opencode/skills/saudi-store-copy/SKILL.md`
+- **Claude Code**: `~/.claude/skills/gcc-store-copy/SKILL.md` (global) or `.claude/skills/gcc-store-copy/SKILL.md` (project)
+- **OpenCode**: `~/.config/opencode/skills/gcc-store-copy/SKILL.md`
 - **Other agents**: place it wherever the agent discovers skills.
 
 ## Use
